@@ -50,6 +50,16 @@ main .card-header {
   color: rgb(112, 193, 196);
 }
 
+.gallery-card .card-body {
+    position: absolute;
+    bottom: 50px;
+    background-color: rgb(112, 193, 196);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.card-body {
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     header .navbar {
@@ -59,6 +69,10 @@ main .card-header {
       color: rgb(241, 218, 197);
       margin: 0;
       padding: 10px 20px;
+        }
+        main img {
+          float: left;
+          margin-right: 15px;
         }
 }
 
