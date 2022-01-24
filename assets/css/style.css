@@ -58,7 +58,12 @@ main .card-header {
     text-align: center;
     color: white;
 }
-.card-body {
+
+.gallery-card {
+  margin-bottom: 10px;
+}
+.main-content {
+  margin-bottom: 10px;
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
